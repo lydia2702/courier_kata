@@ -43,6 +43,7 @@ public class Executor
 
     public void Execute()
     {
+        //Edit the parameters in NewParcel(), and run the application
         var parcelOrder = new ParcelOrder()
         {
             Parcels = new List<Parcel>()
